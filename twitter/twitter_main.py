@@ -16,8 +16,8 @@ import fileClass
 
 
 
-object = Con_sql.Mysql('localhost','temp_db','root','Sahil@123')
-post_object = Con_posql.poconn('localhost','temp_db','postgres','sahil@123')
+object = Con_sql.Mysql('localhost','temp_db','root','')
+post_object = Con_posql.poconn('localhost','temp_db','postgres','')
 pdf_object = pdfClass.PDF()
 twitter_client = twitterClass.Twitterclient()
 tweet_analyzer = twitterClass.tweetAnalyzer()
